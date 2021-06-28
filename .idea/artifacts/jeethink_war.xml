@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jeethink:war">
+    <output-path>$PROJECT_DIR$/jeethink/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jeethink</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jeethink.war">
+      <element id="artifact" artifact-name="jeethink:war exploded" />
+    </root>
+  </artifact>
+</component>
